@@ -45,7 +45,7 @@
 &trans  &kp Q  &kp W  &kp E   &kp R                  &kp T                         &kp Y        &kp U        &kp I      &kp O    &kp P     &trans
 &trans  &kp A  &kp S  &kp D   &kp F                  &kp G                         &kp H        &kp J        &kp K      &kp L    &kp SEMI  &trans
 &trans  &kp Z  &kp X  &kp C   &kp V                  &kp B                         &kp N        &kp M        &kp COMMA  &kp DOT  &kp FSLH  &trans
-                      &tog 2  &mt LEFT_SHIFT ESCAPE  &mt LEFT_CONTROL BACKSPACE    &lt 3 SPACE  &lt 1 ENTER  &tog 1
+                      &tog 2  &mt LEFT_SHIFT ESCAPE  &mt LEFT_CONTROL BACKSPACE    &lt 3 SPACE  &lt 1 ENTER  &tog 4
             >;
         };
 
@@ -78,10 +78,10 @@
 
         gamemode {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp TAB         &kp Q  &kp W         &kp E       &kp R        &trans  &kp N7        &kp N8        &kp N9        &trans  &trans
+&trans  &kp LCTRL       &kp A  &kp S         &kp D       &kp F        &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp Z  &kp X         &kp C       &kp V        &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+                               &kp NUMBER_3  &kp ESCAPE  &kp SPACE    &trans  &trans        &trans
             >;
         };
     };
