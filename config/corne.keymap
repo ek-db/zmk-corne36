@@ -45,7 +45,7 @@
 &trans  &kp Q  &kp W  &kp E  &kp R                  &kp T                         &kp Y      &kp U        &kp I      &kp O    &kp P     &trans
 &trans  &kp A  &kp S  &kp D  &kp F                  &kp G                         &kp H      &kp J        &kp K      &kp L    &kp SEMI  &trans
 &trans  &kp Z  &kp X  &kp C  &kp V                  &kp B                         &kp N      &kp M        &kp COMMA  &kp DOT  &kp SQT   &trans
-                      &to 1  &mt LEFT_SHIFT ESCAPE  &mt LEFT_CONTROL BACKSPACE    &kp SPACE  &lt 2 ENTER  &kp TAB
+                      &mo 1  &mt LEFT_SHIFT ESCAPE  &mt LEFT_CONTROL BACKSPACE    &kp SPACE  &lt 2 ENTER  &kp TAB
             >;
         };
 
@@ -78,10 +78,10 @@
 
         gamemode {
             bindings = <
-&trans  &kp TAB         &kp Q  &kp W   &kp E       &kp R        &kp C_VOLUME_UP   &kp N7           &kp N8        &kp N9        &trans  &trans
-&trans  &kp LCTRL       &kp A  &kp S   &kp D       &kp G        &kp C_PLAY_PAUSE  &kp NUMBER_4     &kp N5        &kp NUMBER_6  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp Z  &kp X   &kp C       &kp V        &kp C_VOL_DN      &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-                               &tog 0  &kp ESCAPE  &kp SPACE    &trans            &kp PAUSE_BREAK  &tog 4
+&trans  &kp TAB         &kp Q  &kp W  &kp E       &kp R        &kp C_VOLUME_UP   &kp N7           &kp N8        &kp N9        &trans  &trans
+&trans  &kp LCTRL       &kp A  &kp S  &kp D       &kp G        &kp C_PLAY_PAUSE  &kp NUMBER_4     &kp N5        &kp NUMBER_6  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp Z  &kp X  &kp C       &kp V        &kp C_VOL_DN      &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+                               &to 0  &kp ESCAPE  &kp SPACE    &trans            &kp PAUSE_BREAK  &tog 4
             >;
         };
     };
