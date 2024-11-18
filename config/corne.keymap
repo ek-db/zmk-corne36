@@ -16,25 +16,7 @@
 
 &lt { tapping-term-ms = <175>; };
 
-/ {
-    combos {
-        compatible = "zmk,combos";
 
-        combo_shift {
-            bindings = <&kp LEFT_SHIFT>;
-            key-positions = <25 26>;
-        };
-
-        combo_rshift {
-            bindings = <&kp RIGHT_SHIFT>;
-            key-positions = <33 34>;
-        };
-
-        combo_colon {
-            bindings = <&kp COLON>;
-            key-positions = <32 33>;
-        };
-    };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
